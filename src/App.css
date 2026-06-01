@@ -1,0 +1,145 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.header {
+  background: #3d5c3d;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand h1 {
+  margin: 5px 0 0;
+  font-size: 28px;
+}
+
+.brand p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.theme-btn {
+  padding: 8px 12px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.nav button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.dark .nav button {
+  background: #333;
+  border-color: #555;
+  color: #eee;
+}
+
+.nav button.active {
+  background: #3d5c3d;
+  color: white;
+}
+
+.menu {
+  flex: 1;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #3d5c3d;
+  padding-bottom: 8px;
+}
+
+.subsection h3 {
+  color: #3d5c3d;
+  font-size: 14px;
+}
+
+.menu-item {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.dark .menu-item {
+  background: #333;
+  border-color: #555;
+}
+
+.menu-item h4 {
+  margin: 0 0 5px;
+}
+
+.menu-item p {
+  margin: 0 0 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.dark .menu-item p {
+  color: #aaa;
+}
+
+.price {
+  font-weight: bold;
+  color: #3d5c3d;
+}
+
+.tag {
+  font-size: 11px;
+  background: #eee;
+  padding: 2px 6px;
+  margin-left: 8px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: #666;
+}
+
+.no-results {
+  color: #666;
+  font-size: 14px;
+}
